@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gendiff"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Kolenchenko <sasha_2014@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+[tool.poetry.scripts]
+gendiff = "gendiff.scripts.gendiff:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
